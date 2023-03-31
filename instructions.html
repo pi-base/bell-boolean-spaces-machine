@@ -1,0 +1,145 @@
+<html><head>
+<BASE HREF="http://home.cc.umanitoba.ca/~mbell/instructions.html">
+<title>Instructions</title></head><body>
+<center><h3>
+<a href = http://home.cc.umanitoba.ca/~mbell/spacesdef.html>Space Definitions</a>
+<br><a href = http://home.cc.umanitoba.ca/~mbell/propsdef.html>Property Definitions</a>
+<br><a href = http://home.cc.umanitoba.ca/~mbell/structsdef.html>Structure Definitions</a>
+<br><a href = http://www.umanitoba.ca/cgi-bin/math/bell/props.cgi>Return to Property Selection</a>
+<br><a href = http://www.umanitoba.ca/cgi-bin/math/bell/structs.cgi>Return to Structure Selection</a>
+</h3></center>
+<center><h2><b>Spaces, Properties and Structures Instructions</b></h2></center>
+A Boolean space is a compact, Hausdorff space which has a basis consisting
+of clopen sets.
+The spaces of this database are restricted to Boolean non-metrizable spaces which we will
+henceforth refer to as "spaces". This is important to <b>emphasize</b>.  The program
+will simply say that Dyadic implies Ctn 2^W1 whereas what it means is that
+every Dyadic non-metrizable space contains the Cantor cube of weight W1.
+Another example is that the program will simply say that Orderable and
+Chains W are contradictory; what it means is that every orderable Boolean
+non-metrizable space has an uncountable chain of clopen sets.   
+The properties P of this database
+are restricted to properties for which there exists a space (see previous) having
+P and there exists a space having NOT(P); we will henceforth refer to these
+properties as "properties".  The structures S of this database
+are restricted to structures for which there exists a property (see previous) 
+having S and there exists a property having NOT(S); we will henceforth refer to these
+structures as "structures".
+<hr>
+<b>Property To Space Selection.</b><br>
+On the property list screen there are 2 buttons to the left of
+each property.  Select the leftmost one to indicate that you want the
+property P; select the rightmost one to indicate that you want NOT(P).
+After you have made all your selections, select the SUBMIT button.  If your 
+selection contains a pair of properties which are contradictory or
+redundant (one follows from the other) and the database knows about it,
+then you will be informed of this immediately and must try again.
+Otherwise, you will receive a list of solution spaces (in bold) and/or maybe solution
+spaces (in italics).  A maybe (italic) solution means that, for one of your selected 
+properties, it is not known to me whether that space has that
+property or not, or whether it does or not depends on extra set axioms or 
+depends on a parameter in the space definition/description that the program cannot
+handle. For solutions with a cardinal parameter, it is up to you to determine which
+cardinal yields a solution.  Spaces with a cardinal parameter have a K in
+their name.
+Only if there are no ZFC basic solutions and 
+your property selection is amenable to deducing 
+extended solutions (i.e., finite sums and/or finite products of spaces in
+the database), will such an extended solution (if any) be presented.  Lastly
+follows all common properties to all solutions (even extended solutions
+even when they are not
+displayed because there is a ZFC basic solution; this filters out some
+obvious properties which could not follow from your selection).
+If written in italics,
+this means maybe.  Common properties that logically follow from exactly one of the
+properties that you have selected are not shown.  Eg. Separable -> CCC , so
+if your selection includes Separable, then CCC will not appear as a common 
+property.  The database knows deductions among pairs of properties (of
+course, there are gaps in its knowledge; it currently does not know whether 
+Homogeneous -> All W-Points).
+<p>
+If you select a space on the solution screen by clicking to the left of the space,
+then the space's properties are
+displayed.  Custom colors and a background are used to display this
+information (so you should turn these features on in your browser's
+preferences or else you may get different colors or may not be able to see
+some). The colors are as follows:
+<dl>
+<dt><font color=#ff0000>Red</font>
+<dd>I don't know whether the space has the property.
+<dt><font color=#0000ff>Blue</font>
+<dd>It is consistent with ZFC (or with ZFC+, if the space needs extra set-
+theoretic assumptions) that the space has the
+property but I don't know if it is consistent with ZFC (or with ZFC+, if 
+the space needs extra set-theoretic assumptions) that the space doesn't have the property.
+<dt><font color=#00ff00>Green</font>
+<dd>It is consistent with ZFC (or with ZFC+, if the space needs extra set-
+theoretic assumptions) that the space doesn't have the
+property but I don't know if it is consistent with ZFC (or with ZFC+, if 
+the space needs extra set-theoretic assumptions) that the space does have the property.
+<dt><font color=#ffff00>Yellow</font>
+<dd>It is independent of ZFC (or of ZFC+, if the space needs extra set-
+theoretic assumptions) whether the space has or has not the property.
+<dt><font color=#ffffff>White</font>
+<dd>The space has the property.
+<dt><font color=#000000>Black</font>
+<dd>The space doesn't have the property.
+<dt><font color=#df4798>Purple</font>
+<dd>This applies to spaces that have different versions, usually because
+the definition depends upon a well-ordering of some set.  It means that
+one version of the space has the property and one version of the space does
+not have the property.
+<dt><font color=#b75b00>Brown</font>
+<dd>This applies to spaces built from a parameter which is a function of a
+cardinal K only. The program distinguishes many shades of brown which would
+be too confusing to explicitly display, so it is left to the viewer to
+determine for which K's the space has or has not the property. As an
+example, one shade is the following: the space has the property if 
+K is less than or equal to the continuum and the space doesn't have the property
+if K is greater than the continuum.
+</dl>
+<hr>
+<b>Structure To Property Selection.</b><br>
+This is similar to Property To Space Selection.
+<hr>
+<b>Lists</b><br>
+These are lists of various things.
+<hr>
+<center><h3>
+<a href = http://home.cc.umanitoba.ca/~mbell/spacesdef.html>Space Definitions</a>
+<br><a href = http://home.cc.umanitoba.ca/~mbell/propsdef.html>Property Definitions</a>
+<br><a href = http://home.cc.umanitoba.ca/~mbell/structsdef.html>Structure Definitions</a>
+<br><a href = http://www.umanitoba.ca/cgi-bin/math/bell/props.cgi>Return to Property Selection</a>
+<br><a href = http://www.umanitoba.ca/cgi-bin/math/bell/structs.cgi>Return to Structure Selection</a>
+</h3></center>
+</body>
+<SCRIPT language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 20011005072043 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20020603133926.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/20011005072043/";
+
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++)
+         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1)
+            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+   }
+
+   if (document.links)  xLateUrl(document.links, "href");
+   if (document.images) xLateUrl(document.images, "src");
+   if (document.embeds) xLateUrl(document.embeds, "src");
+
+   if (document.body && document.body.background)
+      document.body.background = sWayBackCGI + document.body.background;
+
+//-->
+</SCRIPT>
+
+</html>
